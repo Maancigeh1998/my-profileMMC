@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+
+<html>
+
+<title>Maan MOHAMUD CIGEH Profile</title>
+<meta name="description" content="This is the unique profile page of Maan MC">
+<meta charset="UTF=8">
+<link href="https://fonts.googleapis.com/css2?family=Oswald&family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/02bca808c0.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="maanmc_my_file.css">
+</head>
+
+<body>
+
+<div class="container">
+
+	<div class="card-white">
+		<h1>Hello, I'm Maan</h1>
+			<h2>Welcome on my profile page</h2>
+				<img src="images/Me.jpg" alt="Maan MOHAMUD CIGEH" class="img-circle">
+					<p>
+					I am a student in Audencia Business School in Nantes in a bachelor’s degree in international development.
+					I am a multicultural student with only one dream, discovering the world.
+					</p>
+						<a href="http://lewagon.com" class="btn-red" target="_blank">Discover Le Wagon</a>
+	</div>
+
+
+	<div class="card-white">
+		<h3>Who am I</h3>
+			<p>	My name is Maan MOHAMUD CIGEH, I am 22 years old. 
+			I was born in the Netherlands, but I am originally from Somali.And I live in France since 2005. 
+			I am passionate about traveling, meeting new people and music.
+			</p>
+	</div>
+
+	<div class="card-white">
+		<h3>What are my skills</h3>
+			<p>
+			During my different professional and personal experiences, I had the chance to learn how to prospect new clients and supplier. I learn how to manage clients and how to react to stress.
+			I had the chance to realise administrative task related to Import - Export operations.
+			I can speak fluently 3 languages, French, English, and Somali, and I can also speak Spanish.
+			</p>
+	</div>
+
+	<div class="card-white">
+		<h3>What I am looking toward</h3>
+			<p>
+			I am currently looking for a 6 months internship in Import-Export logistics.
+			</p>
+	</div>
+
+
+	<div class="card-white">
+		<h4>Follow me</h4>
+
+			<ul class="list-inline">
+				<li> 
+					<a href="https://www.linkedin.com/in/maan-mohamud-cigeh/"target ="_blank">
+						<i class="fab fa-linkedin"></i>
+					</a>
+				</li>
+	
+				<li>
+					<a href="https://www.instagram.com/maan_moon_/?hl=fr"target="_blank">
+						<i class="fab fa-instagram-square"></i>
+					</a>
+				</li>
+	
+				<li>
+					<a href="https://twitter.com/MaanMoon05"target="_blank">
+						<i class="fab fa-twitter-square"></i>
+					</a>
+				</li>
+
+			</ul>
+	</div>
+
+</div>
+
+</body>
+
+
+</htlm>
+
+
+
+
+
+body{background-color: #F1F6F9;
+	color: rgb(50, 50, 50);
+	font-family: 'Roboto Slab', serif;
+	font-size: 17px;
+	font-weight: 100px;
+
+}
+h1{color: rgb(110, 44, 0 )
+	font-family: 'Oswald', sans-serif;
+	font-weight:80;
+	letter-spacing: 5%px;
+	font-size: 60px;
+}
+h2{color:#bb2205;
+	font-family: 'Oswald', sans-serif;
+	lighting-color: lighter;
+	font-weight:70;
+	letter-spacing: 5%px;
+	font-size: 30px;
+ }
+
+h3, h4{font-family: 'Roboto Slab', serif;
+	color: rgb(110, 44, 0 )
+	font-size: 20px;}
+
+
+a
+{	font-family: 'Oswald', sans-serif;
+	text-decoration:none;
+	color:#BB2205;
+	font-weight:bold;
+	font-size: 16px;}
+
+a:hover{color:black;
+	text-decoration:underline;} 
+
+div{
+	background-color: white;
+    padding: 40px;
+    margin: 50px auto;
+    text-align: center;}
+
+.img-circle{
+	border-radius: 120%;
+	height: 150px;
+	width: 150px;
+
+}
+
+.card-white{
+	background-color: #fff8cd;
+	padding: 40px;
+	box-shadow: 0px 20px 40px rgda(0,0,0,0,1);
+	text-align: center;
+	margin: 20px 0px;
+	;
+
+}
+
+
+.container{ width: 700px;
+	margin: 40px auto; 
+	box-shadow: 0px 20px 40px rgda(0,0,0,0,1);
+
+ }
+
+.btn-red{ 
+background-color: white;
+padding: 10px 15px;
+border-radius: 10px;
+ }
+
+@media( max-width: 720px)
+	.container{ 
+		width: 600px;
+	 } 
+
+@media( max-width: 620px){
+	.container{ 
+		width: 500px;
+	 } 
+}
+
+
+@media( max-width: 520px){
+	.container{ 
+		width: 400px;
+	 } 
+}
+
+
+@media( max-width: 420px){
+	.container{ 
+		width: 300px;
+	 } 
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: 10px;
+}
+
+.list-inline li{ 
+	display: inline;
+	padding: 30px;
+ }
+
+.list-inline i:{ 
+font-size: 50px;
+size: 50px;
+ }
+
+.list-inline i:hover{ 
+font-size: 50px;
+color: black;
+
+ }
+
